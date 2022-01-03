@@ -1,10 +1,10 @@
 package one.digital.innovation;
 
-public class fila {
+public class Fila {
 
     private No refNoEntradaFila;
 
-    public fila() {
+    public Fila() {
         this.refNoEntradaFila = null;
     }
 
@@ -22,6 +22,7 @@ public class fila {
                     break;
                 }
             }
+            return primeiroNo;
         }
         return null;
     }
